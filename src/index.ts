@@ -34,7 +34,7 @@ class ProductInfo {
 }
 
 const getProductInfo = async (code: number | string, timeout?: number): Promise<ProductInfo> => {
-    const {data, status} = await axios.get<string>(`http://gs1.koreannet.or.kr/pr/${code.toString}`, {
+    const {data, status} = await axios.get<string>(`http://gs1.koreannet.or.kr/pr/${code.toString()}`, {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
         },
