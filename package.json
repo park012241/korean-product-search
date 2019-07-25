@@ -1,6 +1,6 @@
 {
   "name": "search-product-korea",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Searches products in korea",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   },
   "devDependencies": {
     "typescript": "^3.4.5",
-    "tslint": "^5.16.0"
+    "tslint": "^5.16.0",
+    "@types/node": "^12.6.8"
   },
   "publishConfig": {
     "access": "public"
