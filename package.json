@@ -1,6 +1,6 @@
 {
   "name": "search-product-korea",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Searches products in korea",
   "main": "lib/index.js",
   "scripts": {
