@@ -1,11 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+  - "10"
 deploy:
   provider: npm
-  email: admin@sslowmotion.dev
-  api_key:
-    secure: NfJrmbOPq5+2A4f2XUIF7B6D9FoiAN7UYyavjlHtfJi0cJpXoEoeH2OSqHBL2U9VxHt6K+KsaCPBh6ULTPPbDTKWhgf/ZnGuzawKvncesVtx5RJ5SNW8+g79vlAp7YjMROFG8mpm8ABeJos+K+OlyH4Vicvmru5Pex8LMc34hSqA4u+5cnMluNa/hm364weq1b5G0lvuY3z7+vZfdqV44G2/eVeNlH6RqxEwfYxisUHbsHcH73QBMnofGXiQGmtc0VoGmODK4nmTSM5K0rWDhV9n2ONkScCF9Mj5vVvAwfjk1mxyiKO9IfM5mCJAZ5M5DC9DF+7OgixvBuuxzFYoz6bItYMwWGTw76LHvszF4H+EyfYyscQfOtm2TaoQFYs88H+g8YfK3K94BVpN4cIDBmTK8XBSaEP3VPUDOdqrL/TiRov1pozjgCFXb+rZS30dhTZZRXi0aDj4WW9EFEZ9XyEcQiX6oj90eMqZl5vod0cHEg6Ipuz3mRtoBJbK3IyqcT9RklM1V/PmEBArE7TvxU8XMZahl50eIs/brxOQ8PgtARtgQgyIzZBwrf/xQJL2lwck7VD0xxmxjFBVQju1Y1q4TDiBZFOjBE/sv3NWcEpciUtz3ggsp4wmnE/xU3OsGYSMgB5erJsbm0eulQmzse9AjsgV0O+iSJW0k6YGEas=
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
   on:
     branch: master
   skip_cleanup: true
