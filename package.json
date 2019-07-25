@@ -1,0 +1,23 @@
+{
+  "name": "search-product-korea",
+  "version": "1.0.4",
+  "description": "Searches products in korea",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "node lib/test.js",
+    "prepublish": "tsc"
+  },
+  "author": "Joosung Park",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5",
+    "tslint": "^5.16.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
